@@ -3,6 +3,29 @@
 	margin: 0;
 }
 
+.on-block{
+	display: block;
+	animation: show 2s forwards;
+}
+
+.on-inlineBlock{
+	display: inline-block;
+}
+
+.off{
+	display: none;
+}
+
+@keyframes show{
+	from{
+		opacity: 0;
+		overflow: hidden;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
 
 nav{
 	background-image: linear-gradient(to right, #A61269, purple);
@@ -211,6 +234,8 @@ nav #home, nav #about{
 
 
 @media(max-width: 360px) {
+	
+
 	.card img{
 		max-height: 180px;
 		
