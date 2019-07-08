@@ -38,7 +38,7 @@ xhr.onreadystatechange = function(){
 	}
 }
 
-xhr.open('GET','http://localhost/json/data.json',true);
+xhr.open('GET','http://hijihakim.github.io/json/data.json',true);
 xhr.send();
 
 
